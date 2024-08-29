@@ -1,0 +1,67 @@
+/* style.css */
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#signup-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+#signup-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#signup-form input[type="text"],
+#signup-form input[type="password"],
+#signup-form input[type="email"],
+#signup-form input[type="tel"],
+#signup-form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#signup-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#signup-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#signup-form input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+
+.checkbox-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin-right: 10px;
+}
